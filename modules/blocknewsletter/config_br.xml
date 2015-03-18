@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blocknewsletter</name>
+	<displayName><![CDATA[Bloco da newsletter]]></displayName>
+	<version><![CDATA[2.1.4]]></version>
+	<description><![CDATA[Adiciona um bloco para cadastramento da newsletter.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Tem a certeza que deseja apagar todos os seus contatos?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

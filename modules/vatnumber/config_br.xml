@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>vatnumber</name>
+	<displayName><![CDATA[N&uacute;mero VAT]]></displayName>
+	<version><![CDATA[1.7.2]]></version>
+	<description><![CDATA[Permite que voc&ecirc; insira o n&uacute;mero de IVA intracomunit&aacute;rio ao criar o endere&ccedil;o. Voc&ecirc; deve preencher o campo empresa para permitir a introdu&ccedil;&atilde;o do n&uacute;mero de IVA.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[billing_invoicing]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

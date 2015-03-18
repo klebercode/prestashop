@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>loyalty</name>
+	<displayName><![CDATA[Fidelidade de clientes e seus b&ocirc;nus]]></displayName>
+	<version><![CDATA[1.2.6]]></version>
+	<description><![CDATA[Proporcionar um programa de fidelidade para seus clientes.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[pricing_promotion]]></tab>
+	<confirmUninstall><![CDATA[Tem certeza de que deseja excluir todos os pontos de fidelidade e histórico do cliente?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

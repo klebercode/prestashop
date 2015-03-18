@@ -1,0 +1,431 @@
+@charset "utf-8";
+/* CSS Document */
+@media print {
+	.noprint {display:none !important;}
+}
+#module-boletobancario-payment #center_column {
+	width:757px;
+}
+* {
+	font-family: Arial;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+.notice {
+	color: red;
+}
+
+/* *** LINHAS GERAIS *** */
+
+#layout_boleto #container {
+	width: 666px;
+	margin: 0 10px;
+	padding-bottom: 30px;
+}
+
+#layout_boleto #instructions {
+	margin: 0;
+	padding: 0 0 20px 0;
+}
+
+#layout_boleto #boleto {
+	width: 666px;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* *** CABECALHO *** */
+
+#layout_boleto #instr_header {
+	padding-left: 210px;
+	height: 65px;
+}
+
+#layout_boleto #instr_header h1 {
+	font-size: 16px;
+	margin: 5px 0px;
+}
+
+#layout_boleto #instr_header address {
+	font-style: normal;
+}
+
+#layout_boleto #instr_content {
+
+}
+
+#layout_boleto #instr_content h2 {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#layout_boleto #instr_content p {
+	font-size: 11px;
+	margin: 4px 0px;
+}
+
+#layout_boleto #instr_content ol {
+	font-size: 11px;
+	margin: 5px 0;
+}
+
+#layout_boleto #instr_content ol li {
+	font-size: 11px;
+	text-indent: 10px;
+	margin: 2px 0px;
+	list-style-position: inside;
+}
+
+#layout_boleto #instr_content ol li p {
+	font-size: 11px;
+	padding-bottom: 4px;
+}
+
+
+/* *** BOLETO *** */
+
+#layout_boleto #boleto .cut {
+	width: 666px;
+	margin: 0px auto;
+	border-bottom: 1px navy dashed;
+}
+
+#layout_boleto #boleto .cut p {
+	margin: 0 0 5px 0;
+	padding: 0px;
+	font-family: 'Arial Narrow';
+	font-size: 10px;
+	color: navy;
+}
+
+#layout_boleto table.header {
+	width: 666px;
+	height: 38px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-bottom: 2px navy solid;
+	
+}
+
+#layout_boleto table.header div.field_cod_banco {
+	width: 46px;
+	height: 19px;
+	margin-left: 5px;
+	padding-top: 3px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: navy;
+	border-right: 2px solid navy;
+	border-left: 2px solid navy;
+}
+
+#layout_boleto table.header td.linha_digitavel {
+	width: 464px;
+	text-align: right;
+	font: bold 15px Arial; 
+	color: navy
+}
+
+#layout_boleto table.line {
+	margin-bottom: 3px;
+	padding-bottom: 1px;
+	border-bottom: 1px black solid;
+}
+
+#layout_boleto table.line tr.titulos td {
+	height: 13px;
+	font-family: 'Arial Narrow';
+	font-size: 10px;
+	color: navy;
+	border-left: 5px #ffff01 solid;
+	padding-left: 2px;
+}
+
+#layout_boleto table.line tr.campos td {
+	height: 12px;
+	font-size: 11px;
+	color: black;
+	border-left: 5px #ffff01 solid;
+	padding-left: 2px;
+}
+
+#layout_boleto table.line td p {
+	font-size: 11px;
+}
+
+
+#layout_boleto table.line tr.campos td.ag_cod_cedente,
+#layout_boleto table.line tr.campos td.nosso_numero,
+#layout_boleto table.line tr.campos td.valor_doc,
+#layout_boleto table.line tr.campos td.vencimento2,
+#layout_boleto table.line tr.campos td.ag_cod_cedente2,
+#layout_boleto table.line tr.campos td.nosso_numero2,
+#layout_boleto table.line tr.campos td.xvalor,
+#layout_boleto table.line tr.campos td.valor_doc2
+{
+	text-align: right;
+}
+
+#layout_boleto table.line tr.campos td.especie,
+#layout_boleto table.line tr.campos td.qtd,
+#layout_boleto table.line tr.campos td.vencimento,
+#layout_boleto table.line tr.campos td.especie_doc,
+#layout_boleto table.line tr.campos td.aceite,
+#layout_boleto table.line tr.campos td.carteira,
+#layout_boleto table.line tr.campos td.especie2,
+#layout_boleto table.line tr.campos td.qtd2
+{
+	text-align: center;
+}
+
+#layout_boleto table.line td.last_line {
+	vertical-align: top;
+	height: 25px;
+}
+
+#layout_boleto table.line td.last_line table.line {
+	margin-bottom: -5px;
+	border: 0 white none;
+}
+
+td.last_line table.line td.instrucoes {
+	border-left: 0 white none;
+	padding-left: 5px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	height: 20px;
+	vertical-align: top;
+}
+
+#layout_boleto table.line td.cedente {
+	width: 298px;
+}
+
+#layout_boleto table.line td.valor_cobrado2 {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+
+#layout_boleto table.line td.ag_cod_cedente {
+	width: 126px;
+}
+
+#layout_boleto table.line td.especie {
+	width: 35px;
+}
+
+#layout_boleto table.line td.qtd {
+	width: 53px;
+}
+
+#layout_boleto table.line td.nosso_numero {
+	/* width: 120px; */
+	width: 115px;
+	padding-right: 5px;
+}
+
+#layout_boleto table.line td.num_doc {
+	width: 113px;
+}
+
+#layout_boleto table.line td.contrato {
+	width: 72px;
+}
+
+#layout_boleto table.line td.cpf_cei_cnpj {
+	width: 132px;
+}
+
+#layout_boleto table.line td.vencimento {
+	width: 134px;
+}
+
+#layout_boleto table.line td.valor_doc {
+	/* width: 180px; */
+	width: 175px;
+	padding-right: 5px;
+}
+
+#layout_boleto table.line td.desconto {
+	width: 113px;
+}
+
+#layout_boleto table.line td.outras_deducoes {
+	width: 112px;
+}
+
+#layout_boleto table.line td.mora_multa {
+	width: 113px;
+}
+
+#layout_boleto table.line td.outros_acrescimos {
+	width: 113px;
+}
+
+#layout_boleto table.line td.valor_cobrado {
+	/* width: 180px; */
+	width: 175px;
+	padding-right: 5px;
+	background-color: #ffc ;
+}
+
+#layout_boleto table.line td.sacado {
+	width: 659px;
+}
+
+#layout_boleto table.line td.local_pagto {
+	width: 472px;
+}
+
+#layout_boleto table.line td.vencimento2 {
+	/* width: 180px; */
+	width: 175px;
+	padding-right: 5px;
+	background-color: #ffc;
+}
+
+#layout_boleto table.line td.cedente2 {
+	width: 472px;
+}
+
+#layout_boleto table.line td.ag_cod_cedente2 {
+	/* width: 180px; */
+	width: 175px;
+	padding-right: 5px;
+}
+
+#layout_boleto table.line td.data_doc {
+	width: 93px;
+}
+
+#layout_boleto table.line td.num_doc2 {
+	width: 173px;
+}
+
+#layout_boleto table.line td.especie_doc {
+	width: 72px;
+}
+
+#layout_boleto table.line td.aceite {
+	width: 34px;
+}
+
+#layout_boleto table.line td.data_process {
+	width: 72px;
+}
+
+#layout_boleto table.line td.nosso_numero2 {
+	/* width: 180px; */
+	width: 175px;
+	padding-right: 5px;
+}
+
+#layout_boleto table.line td.reservado {
+	width: 93px;
+	background-color: #ffc;
+}
+
+#layout_boleto table.line td.carteira {
+	width: 93px;
+}
+
+#layout_boleto table.line td.especie2 {
+	width: 53px;
+}
+
+#layout_boleto table.line td.qtd2 {
+	width: 133px;
+}
+
+#layout_boleto table.line td.xvalor {
+	/* width: 72px; */
+	width: 67px;
+	padding-right: 5px;
+}
+
+#layout_boleto table.line td.valor_doc2 {
+	/* width: 180px; */
+	width: 175px;
+	padding-right: 5px;
+}
+#layout_boleto table.line td.instrucoes {
+	width: 475px;
+}
+
+#layout_boleto table.line td.desconto2 {
+	/* width: 180px; */
+	width: 175px;
+	padding-right: 5px;
+}
+
+#layout_boleto table.line td.outras_deducoes2 {
+	/* width: 180px; */
+	width: 175px;
+	padding-right: 5px;
+}
+
+#layout_boleto table.line td.mora_multa2 {
+	/* width: 180px; */
+	width: 175px;
+	padding-right: 5px;
+}
+
+#layout_boleto table.line td.outros_acrescimos2 {
+	/* width: 180px; */
+	width: 175px;
+	padding-right: 5px;
+}
+
+#layout_boleto table.line td.valor_cobrado2 {
+	/* width: 180px; */
+	width: 175px;
+	padding-right: 5px;
+	background-color: #ffc ;
+}
+
+#layout_boleto table.line td.sacado2 {
+	width: 659px;
+}
+
+#layout_boleto table.line td.sacador_avalista {
+	width: 659px;
+}
+
+#layout_boleto table.line tr.campos td.sacador_avalista {
+	width: 472px;
+}
+
+#layout_boleto table.line td.cod_baixa {
+	color: navy;
+	width: 180px;
+}
+
+#layout_boleto div.footer {
+	margin-bottom: 20px;
+}
+
+#layout_boleto div.footer p {
+	width: 100px;
+	margin: 0;
+	padding: 0;
+	padding-left: 525px;
+	font-family: 'Arial Narro';
+	font-size: 10px;
+	color: navy;
+}
+
+#layout_boleto div.barcode {
+	width: 666px;
+	margin-bottom: 20px;
+}
+
+#layout_boleto #instructions {
+	height: 1px;
+	visibility: hidden;
+	overflow: hidden;
+}

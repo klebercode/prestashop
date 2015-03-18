@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>onboarding</name>
+	<displayName><![CDATA[Integra&ccedil;&atilde;o]]></displayName>
+	<version><![CDATA[0.1.9]]></version>
+	<description><![CDATA[O m&oacute;dulo de integra&ccedil;&atilde;o cumprimenta usu&aacute;rios do Admin do PrestaShop de primeira viagem: atrav&eacute;s de uma pequena interface l&uacute;dica, ele mostra ao usu&aacute;rio como para lan&ccedil;ar sua loja em v&aacute;rias etapas simples.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

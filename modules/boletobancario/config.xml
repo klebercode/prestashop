@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>boletobancario</name>
+            <displayName><![CDATA[Boleto Bancario]]></displayName>
+            <version><![CDATA[2.4]]></version>
+            <description><![CDATA[Aceitar pagamentos em Boleto Banc&amp;aacute;rio]]></description>
+            <author><![CDATA[Adaptado por PRESTABR]]></author>
+            <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall>Tem certeza de que pretende eliminar os seus dados?</confirmUninstall>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>

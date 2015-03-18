@@ -1,0 +1,25 @@
+
+Olá, {firstname} {lastname},
+
+Seu pedido com a Referência: {order_name} está Aguardando Pagamento do Boleto. 
+
+Obrigado por comprar na {shop_name}!
+
+
+Você escolheu pagar pelo Boleto Bancário.
+
+Seu pedido com a Referência {order_name} foi confirmado e será enviado assim que o boleto for compensado.
+
+Total do pedido: {total_paid}
+
+
+Caso não tenha gerado o boleto, ou o tenha perdido, pode utilizar o link a seguir para gerar a 2ª. via do boleto: 
+
+{link_boleto} 
+
+
+Você pode revisar seu pedido no link {history_url}, ou clicando em "Minha Conta" em nossa loja.
+
+
+{shop_name} powered by PrestaShop™
+

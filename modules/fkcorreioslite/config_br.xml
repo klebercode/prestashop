@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>fkcorreioslite</name>
+	<displayName><![CDATA[M&oacute;dulo FKcorreios Lite]]></displayName>
+	<version><![CDATA[160.2.1]]></version>
+	<description><![CDATA[Oferece aos seus clientes os servi&ccedil;os de entregas PAC e SEDEX dos Correios do Brasil.]]></description>
+	<author><![CDATA[FokusFirst]]></author>
+	<tab><![CDATA[shipping_logistics]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

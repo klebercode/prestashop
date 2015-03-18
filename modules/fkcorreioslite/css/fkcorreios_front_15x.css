@@ -1,0 +1,91 @@
+
+.fkcorreios-form {
+    padding: 5px 10px 5px 10px;}
+    
+    .fkcorreios-form input[type="text"] {
+        height: 20px;
+        padding: 2px;
+        font-size: 13px;
+        line-height: 1.42857;
+        color: #9c9b9b;
+        vertical-align: middle;
+        background-color: white;
+        border: 1px solid #d6d4d4;
+        border-radius: 0px;}
+
+    .fkcorreios-form input[type="submit"] {
+        -webkit-border-radius: 3px !important;
+        -moz-border-radius: 3px !important;
+        border-radius: 3px !important;}
+    
+.fkcorreios-button { 
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    background: #43b754;
+    border: 1px solid;
+    border-color: #399a49 #247f32 #1a6d27 #399a49;}
+    
+    .fkcorreios-button:hover {
+        cursor: pointer;
+        background: #3aa04c;
+        border-color: #196f28 #399a49 #399a49 #258033;}    
+
+.fkcorreios-box {
+    background: #fbfbfb;
+    border: 1px solid #d6d4d4;
+    border-radius: 0;
+    padding: 0;
+    margin: 0 0 20px 0;}
+
+.fkcorreios-legenda {
+    padding-top: 5px;
+    padding-bottom: 5px;}
+       
+    .fkcorreios-legenda p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;}
+        
+    .fkcorreios-legenda .fkcorreios-button {
+        margin-left: 20px;}
+    
+.fkcorreios-transportadoras {
+    background-color: #FFFFFF;
+    font-size: 12px;}
+    
+    .fkcorreios-transportadoras p {
+        padding: 5px;
+        margin: 5px 0 5px 0;
+        background-color: #43b754;
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: bold;}
+        
+    .fkcorreios-transportadoras table {
+        width: 100%;}
+        
+    .fkcorreios-transportadoras tr {
+        border-bottom: 1px solid #d6d4d4;}
+        
+    .fkcorreios-transportadoras td {
+        padding: 5px 10px;}
+        
+.fkcorreios-fancybox {
+    display: none;}
+            
+    .fkcorreios-fancybox td {
+        padding: 5px 10px;}    
+
+#fkcorreios-nome {
+    width: 60%;}
+    
+#fkcorreios-valor {
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;}
+

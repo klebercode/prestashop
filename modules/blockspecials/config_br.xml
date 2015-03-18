@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blockspecials</name>
+	<displayName><![CDATA[Bloco de promo&ccedil;&otilde;es]]></displayName>
+	<version><![CDATA[1.1.4]]></version>
+	<description><![CDATA[Adiciona um bloco para mostrar seus produtos em promo&ccedil;&atilde;o.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[pricing_promotion]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
